@@ -1,0 +1,153 @@
+[class*="col-"] {
+width: 100%;
+}
+
+@media only screen and (min-width: 750px) {
+
+[class*="col-"] {
+float: left;
+padding: 10px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  height: 300px;
+  width: 100%;
+  background-image: url(../afbeeldingen/boekel.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: normal;
+  text-align: center;
+  color: white;
+  background-color: #002D65;
+  border-radius: 10px;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: 'Anton', sans-serif;
+  padding-left: 10px;
+  padding-right: 15px;
+  color: white;
+  font-weight: lighter;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  color: white;
+  font-weight: lighter;
+}
+
+
+ul {
+  list-style-image: url(../afbeeldingen/check.png);
+}
+
+li {
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+footer {
+  background-color: #002D65;
+}
+
+footer h3 {
+  padding-left: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: #0B5491;
+}
+
+.atractie {
+  padding: 10px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.atractie-afbeelding {
+  float: right;
+  max-width: 200px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.atractie a {
+  background-color: #002D65;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.atractie a:hover {
+  color: #002D65;
+  background-color: #ffffff;
+}
+
+#header-titel {
+  padding-top: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#een {
+  margin: 10px;
+  min-height: auto;
+  min-width: 150px;
+  background-color: #32393D;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#twee {
+  margin: 10px;
+  min-height: auto;
+  background-color: #0B5491;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 751px) {
+
+  #een {
+    background-color: #002D65;
+    margin-left: 20px;
+}
+
+#twee {
+margin-left: 50px;
+}
+}
